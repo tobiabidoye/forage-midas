@@ -1,0 +1,10 @@
+general:
+  kafka-topic: test_topic
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: application.log
+  console:
+    enabled: true

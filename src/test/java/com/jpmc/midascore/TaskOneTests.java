@@ -11,6 +11,7 @@ class TaskOneTests {
 
     @Test
     void task_one_verifier() throws InterruptedException {
+    
         Thread.sleep(2000);
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
@@ -23,7 +24,7 @@ class TaskOneTests {
         }
         output.append("\n").append("---end output ---");
         logger.info(output.toString());
-
+    
     }
 
 }
